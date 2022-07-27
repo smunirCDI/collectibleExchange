@@ -123,3 +123,15 @@ a:hover{
     background-color: #f56a05;
     color: white !important;
 }
+.smallFont{
+    font-size: .5rem;
+    text-align: left;
+}
+.mainFont{
+    text-align: left;
+    font-size: .9rem;
+    font-weight: bolder;
+}
+.cd_logo img{
+    height: 100%;
+}
