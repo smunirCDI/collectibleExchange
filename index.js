@@ -28,13 +28,49 @@ const products =[
     openDate: 'Feb 8, 2022 10:00:00 AM EST',
     closingDate: 'Sep 23, 2022 05:00:00 AM EDT',
     description: 'Mark Messier New York Rangers Autographed and Inscribed Lithograph Photo.'
-  }
+  },
+  {
+    id: 04,
+    itemName: 'Dennis Rodman Signed Spalding Chicago Bulls Logo Game Series Replica NBA Basketball',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/0260/6605/9352/products/RODBSK216-500x500_1800x1800.jpg?v=1658913112',
+    bitdAmnt: 1,
+    currentBid: 300,
+    openDate: 'May 10, 2022 10:00:00 AM EST',
+    closingDate: 'Aug 05, 2022 05:00:00 AM EDT',
+    description: 'Dennis Rodman signed Spalding Chicago Bulls logo Game Series replica NBA basketball. Item comes with a Schwartz Sports Memorabilia tamper-proof numbered hologram and Certificate of Authenticity which can be verified online.',
+    closingSoon:true
+  },
+  {
+    id: 05,
+    itemName: 'Allen Iverson Signed 76ers 2003-04 Black/Red Mitchell & Ness Jersey PSA ITP',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/0260/6605/9352/products/s-l500_788ddca7-a93a-4d00-b8d8-b221132db9fc_1800x1800.jpg?v=1658857466',
+    bitdAmnt: 5,
+    currentBid: 500,
+    openDate: 'June 10, 2022 10:00:00 AM EST',
+    closingDate: 'Aug 10, 2022 05:00:00 AM EDT',
+    description: 'Allen Iverson Signed 76ers 2003-04 Black/Red Mitchell & Ness Jersey PSA ITP',
+    closingSoon:true
+  },
+  {
+    id: 06,
+    itemName: 'Bobby Mitchell Autographed 1975 Topps Card #468 Milwaukee Brewers SKU #168478',
+    imageUrl: 'https://cdn.shopify.com/s/files/1/0260/6605/9352/products/image4158__74861.1586908830_1800x1800.jpg?v=1658917262',
+    bitdAmnt: 3,
+    currentBid: 100,
+    openDate: 'July 10, 2022 10:00:00 AM EST',
+    closingDate: 'Aug 13, 2022 05:00:00 AM EDT',
+    description: 'This is a 1975 Topps Card #468 that has been hand signed by Bobby Mitchell. This item is guaranteed to pass any third party authentication company including Beckett, PSA/DNA & JSA authentication.',
+    closingSoon:true
+  },
+
 ]
+
 
 const app =()=>{
     loadNavBar()
     loadProducts()
     productDetail() 
+    loadFooter() 
 
     const test = document.getElementById('test')
     if(test){
@@ -71,7 +107,168 @@ const app =()=>{
     }
     
   }
+
   
+const loadFooter=()=>{
+  const footer = document.getElementById('footer')
+  footer.innerHTML=`
+  <section 
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom container"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <section class="container">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Collectible Exchange
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Cusmtomer Services
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">FAQ</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Contact Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Order History</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Information
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Privacy Policy</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Terms of Use</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">SMS Terms & Conditions</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Site Map</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Auctions
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">All Auctions</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Closing Soon</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Popular Auctions</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Just Opened</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Recently Sold</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Shop</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <div class="text-center p-4 " style="background-color: rgba(0, 0, 0, 0.05);">
+      <div class="container d-flex justify-content-between">
+        <p>
+          © 2021 Copyright:
+  
+        </p>
+          <div class="bottom-footer text-light">
+            <div class="container  align-items-center">
+                <a href="http://www.commercedynamics.com/?utm_source=&amp;utm_medium=Footer%20logo&amp;utm_campaign=pistons_auction" target="_blank">
+                  <div class="power_container row">
+                    <div class="col-6 p-0" style="
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;">
+                      <div class="cd_logo"><img src="https://vafloc01.s3.amazonaws.com/WBStatic/site1103960/dist/img/logo-cd.png" alt="commerce dynamics marketplace" height="42"></div>
+                    </div>
+                    <div class="col-6">
+                      <div class="smallFont">POWERED BY</div>
+                      <div class="mainFont">COMMERCE</div>
+                      <div class="mainFont">DYNAMICS</div>
+                      <div class="smallFont">AUCTION MARKETPLACE</div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  `
+
+
+}
 const productDetail=()=>{
     const productPage = document.getElementById('productPage')
     if(productPage){
@@ -281,9 +478,11 @@ const loadNavBar = ()=>{
 
 const loadProducts = ()=>{
   const productRow = document.getElementById('productsRow')
+  const productsClosingSoonRow = document.getElementById('productsClosingSoonRow')
   if(productRow){
     productRow.innerHTML=''
     products.forEach((item,idx)=>{
+      if(!item.closingSoon){
       const card = document.createElement('div')
       card.innerHTML=`
       <a class="card" href="productPage.html#${idx}"
@@ -300,6 +499,31 @@ const loadProducts = ()=>{
       </div>
       </a>`
       productRow.appendChild(card)
+      }
+    })
+  }
+  if(productsClosingSoonRow){
+    productsClosingSoonRow.innerHTML=''
+    products.forEach((item,idx)=>{
+      if(item.closingSoon){
+        const card = document.createElement('div')
+        card.innerHTML=`
+        <a class="card" href="productPage.html#${idx}"
+        <div style="width: 18rem;">
+          <img class="card-img-top" src="${item.imageUrl}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">${item.itemName}
+            </h5>
+            <p class="card-text">Auction Ends: Sep 01, 09:49 AM EST</p>
+            <p class="card-text">Current Bid: ${item.bitdAmnt}</p>
+      
+            <button class="btn btn-brand-color">Bid Now</button>
+          </div>
+        </div>
+        </a>`
+        productsClosingSoonRow.appendChild(card)
+
+      }
     })
   }
 
