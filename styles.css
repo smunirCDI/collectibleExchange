@@ -82,6 +82,10 @@ a:hover{
     width: 25%;
     
 }
+.secondNav li a:hover{
+    background-color: #f56a05;
+    color: white !important;
+}
 .secondNav li a {
     padding: 10px 20px;
     /* border: 1px solid red; */
@@ -117,6 +121,5 @@ a:hover{
 }
 .nav-link:hover {
     background-color: #f56a05;
-    color: white;
-
+    color: white !important;
 }
