@@ -1,0 +1,122 @@
+.navbar-brand{
+    width: 250px;
+    /* margin-right: 0%; */
+}
+img {
+    width: 100%;
+}
+.dropdown-item, .nav-item{
+    text-transform: uppercase;
+    /* font-weight: bold; */
+}
+.brand-color {
+    background-color: #f56a05;
+    color: white;
+  }
+.btn-brand-color{
+  background-color: #f56a05;
+  color: white;
+  border-radius: 0;
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title{
+  background-color: #f56a05;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+.title h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+.card-img-top {
+  height: 30vh;
+  object-fit: contain;
+}
+.card-title {
+  font-size: 1rem;
+}
+.dropdown-menu{
+    z-index: 2000;
+}
+.menu-full-length{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    font-size: .85rem;
+}
+
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.seconNavContainer{
+    position: absolute;
+    /* top: 0; */
+    z-index: 23000;
+    /* right: 0;
+    left: 0; */
+    left: 0;
+    right: 0;    
+}
+.secondNav {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.15);
+    margin: 0 auto;
+}
+.secondNav li{
+    width: 25%;
+    
+}
+.secondNav li a {
+    padding: 10px 20px;
+    /* border: 1px solid red; */
+    display: block;
+    min-width: 150px;
+}
+.hide{
+    display: none;
+}
+
+
+.navbar-nav .dropdown-menu{
+    border-radius: 0%;
+}
+.categoryMenu{
+    position: relative;
+}
+.categoryMenu .dropdown-menu2{
+    /* top: 0; */
+    top: 55px;
+    right: 0;
+    left: 0;
+}
+.navbar{
+    font-size: .9rem;
+}
+.navbar, .dropdown-menu{
+    font-size: .85rem;
+}
+.dropdown-item:hover{
+    background-color: #f56a05;
+    color: white;
+}
+.nav-link:hover {
+    background-color: #f56a05;
+    color: white;
+
+}
